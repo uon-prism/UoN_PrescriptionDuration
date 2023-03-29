@@ -71,7 +71,7 @@ The duration variables/information considered are:
 |numdays          |numdays as provided by CPRD in Therapy file|
 |daily_dose       |daily_dose from common_dosages file (links to Therapy via dosageid)|
 |dose_duration    |dose_duration from common_dosages file (links to Therapy via dosageid)|
-|prn**            |indicator of whether or not the prescription indicated prn ('use as required'); user-generated using clean_common_dosages.do (note, CPRD also provide a flag). 1 indicates prn.|
+|prn**            |indicator of whether or not the prescription indicated prn ('use as required'); user-generated using clean_commondosages.do (note, CPRD also provide a flag). 1 indicates prn.|
 
 *These variables are only used to sort the dataset. If you don't have these variables in your dataset, generate them as missing to prevent the code crashing.
 
