@@ -27,7 +27,7 @@ Run this do-file using the common_dosages file provided by CPRD to generate **pr
 
 
 ## estdur.do
-Run this do-file to define the program 'estdur'. Run estdur as described below. The user-written command **frameappend** is required. 
+First, run this do-file to define the program 'estdur'. Then run the command estdur as described below. The user-written command **frameappend** is required. 
 
 **Syntax**
 
